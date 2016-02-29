@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# ===================================================== #
-# 如有BUG 请提交Issues                                  #
-# https://github.com/Arondight/slacklib32/issues        #
-#                                                       #
-#             Copyright (C) 2014-2015 秦凡东            #
-# ===================================================== #
+# ==============================================================================
+# 如有BUG 请提交Issues
+# https://github.com/slackwarecn/slacklib32/issues
+#
+#             Copyright (C) 2014-2015 秦凡东
+#             Copyright (C) 2016 The Slackware Linux CN Community
+# ==============================================================================
 
 cwd=$(dirname $(readlink -f $0))
 exec_target='/usr/local/bin/slacklib32'
@@ -48,7 +49,7 @@ done
 
 # now answer is yes
 for lib_file in ${lib_files[@]}; do
-  cp -f "$lib_file" "$lib_target"
+  install -m755 "$lib_file" "$lib_target"
 done
 
 if [[ 0 -eq $? ]]; then

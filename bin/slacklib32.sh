@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# ===================================================== #
-# 如有BUG 请提交Issues                                  #
-# https://github.com/Arondight/slacklib32/issues        #
-#                                                       #
-#             Copyright (C) 2014-2015 秦凡东            #
-# ===================================================== #
+# ==============================================================================
+# 如有BUG 请提交Issues
+# https://github.com/slackwarecn/slacklib32/issues
+#
+#             Copyright (C) 2014-2015 秦凡东
+#             Copyright (C) 2016 The Slackware Linux CN Community
+# ==============================================================================
 
 source /usr/local/lib/check_environment.sh
 source /usr/local/lib/main_window.sh
