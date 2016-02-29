@@ -129,6 +129,7 @@ function main_window () {
         msgbox=$(
           cat <<EOM
   Copyright (C) 2014-2015 秦凡东
+  Copyright (C) 2016 The Slackware Linux CN Community
 
   此程序是自由软件；您可以以自由软件基金会发布的GNU通用公共许可协议第三版或（您可以选择）更高版方式重新发布它和/或修改它。
 
